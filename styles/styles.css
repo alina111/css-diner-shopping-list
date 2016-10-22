@@ -1,0 +1,91 @@
+body{
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	border: 1px solid #E5E5E5;
+	font-size:14px;
+}
+*{
+	transition: all .1s ease-in;
+}
+.wrapper{
+	background-color: #3B3F45;
+	margin: 26px;
+}
+
+.page-header, .site-footer{
+	background-color: #4A4F56;
+	text-align: center;
+	padding: 10px 0;
+}
+h1, h2, p{
+	color:#EB7C7C;
+}
+h2{
+	font-weight: 100;
+}
+ul{
+	list-style-type: none;
+	width:660px;
+	margin:30px auto;
+	padding-left: 0;
+}
+li, span, input[type="checkbox"], label{
+	cursor: pointer;
+}
+ul, ul li{
+	list-style-type: none;
+}
+ul li{
+	background-color:#88839E;
+	color:#F4F4EF;
+}
+
+ul li:nth-child(even){
+	background-color:#7A7593;
+}
+ul li:active{
+	background-color: #EB7C7C;
+}
+li label{
+	display: block;
+}
+input[type="checkbox"]{
+	zoom:1.5;
+}
+.small{
+	font-size: 12px;
+	color: #BCB3BB;
+}
+
+input[type="checkbox"]:checked+ span.text{
+	text-decoration: line-through;
+}
+.text{
+	display: inline-block;
+	padding: 10px;
+}
+
+li:hover{
+	background-color: #625E77;
+	border-top:2px solid #FFFFFF;
+	border-bottom:2px solid #FFFFFF;
+}
+
+.small:before{
+	content:"( "
+}
+.small:after{
+	content:" )"
+}
+p{
+	font-size: 24px;
+	margin: 0 auto;
+}
+.site-footer{
+	width: 660px;
+	margin: 0 auto;
+	height: 30px;
+}
+input[type="checkbox"]{
+	padding-top: 10px;
+	display: inline-block;
+}
